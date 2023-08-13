@@ -222,11 +222,13 @@ body,html{
 
 
 .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root,
-.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root,
+.css-mqt2s5,
+.css-348fk2
 {
   font-family: IRsans-web !important;
  left: unset !important;
- right: 25px;
+ right: 25px !important;
 }
 
 .css-1d1r5q-MuiFormHelperText-root{
@@ -258,13 +260,15 @@ body,html{
   background-color: #93215f14 !important;
 }
 .css-1ldfkfy-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
-.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+.css-348fk2.Mui-focused{
   color: var(--purple) !important;
 }
 .css-l4u8b9-MuiInputBase-root-MuiInput-root:after,
 .css-v4u5dn-MuiInputBase-root-MuiInput-root:after,
 .css-1rb63tl-MuiInputBase-root-MuiInput-root:after,
-.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after{
+.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after,
+.css-o3ukdw::after{
   border-bottom: 2px solid var(--purple) !important;
 }
 
@@ -355,5 +359,5 @@ color: var(--orange) !important;
 
 .css-1km1ehz.Mui-selected,
 .css-1km1ehz.Mui-selected:hover{
-  background-color: var(--light-orange2) !important;
+  background-color: #93216014 !important;
 }

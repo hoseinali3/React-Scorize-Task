@@ -22,7 +22,7 @@ export default function Topbar() {
 
             <MobileMenu/>
             <div className="topbar-rightside">
-                <Link to="#" className='logo'>
+                <Link to="/React-Scorize-Task" className='logo'>
 
 
 

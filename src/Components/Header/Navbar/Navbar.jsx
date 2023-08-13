@@ -18,14 +18,14 @@ export default function Navbar() {
                 <ul className='main-menu-list'>
                     {navbarData.length && (
                         navbarData.map(nav => (
-                            <li key={nav.id} className={`main-menu-listitem ${nav.id === 1 ? "nav-active" : null}`}><NavLink to={nav.link}>{nav.title} {nav.submenu ? <KeyboardArrowDownIcon/> : null}</NavLink>
+                            <li key={nav.id} className={`main-menu-listitem ${nav.id === 1 ? "nav-active" : null}`}><NavLink to="/React-Scorize-Task">{nav.title} {nav.submenu ? <KeyboardArrowDownIcon/> : null}</NavLink>
 
                                 {nav.submenu && (
                                     <ul className='main-submenu-list'>
                                         {nav.menus.map(submenu => (
                                             <li key={submenu.id} className='main-submenu-listitem2'>
                                                
-                                                <NavLink to="#" className="submenu-title"> <KeyboardArrowLeftIcon/> {submenu.title}</NavLink>
+                                                <NavLink to="/React-Scorize-Task" className="submenu-title"> <KeyboardArrowLeftIcon/> {submenu.title}</NavLink>
                                               
                                             </li>
                                         ))}
