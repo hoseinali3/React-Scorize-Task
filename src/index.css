@@ -361,3 +361,8 @@ color: var(--orange) !important;
 .css-1km1ehz.Mui-selected:hover{
   background-color: #93216014 !important;
 }
+
+.css-17o5nyn,
+.css-1uwabd6{
+  justify-content: center !important;
+}

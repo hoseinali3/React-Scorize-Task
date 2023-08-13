@@ -165,19 +165,23 @@ font-size: 20px;
         direction: ltr !important;
        
     }
-    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:nth-child(0){
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:nth-child(0),
+    .css-1q2h7u5:nth-child(0){
         order: 4;
        
     }
-    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:nth-child(1){
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:nth-child(1),
+    .css-1q2h7u5:nth-child(1){
         order: 3;
        
     }
-    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:nth-child(2){
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:nth-child(2),
+    .css-1q2h7u5:nth-child(2){
         order:2;
        
     }
-    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:nth-child(3){
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:nth-child(3),
+    .css-1q2h7u5:nth-child(3){
         order:1;
        
     }
