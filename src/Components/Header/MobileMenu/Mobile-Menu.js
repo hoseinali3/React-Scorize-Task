@@ -32,7 +32,7 @@ export default function MobileMenu() {
               {!item.submenu ? (<ListItemButton>
   
   
-                <NavLink style={{ padding: "12px 0", color: "var(--white)" }} to={`/${item.link}`}>{item.title}</NavLink>
+                <NavLink style={{ padding: "12px 0", color: "var(--white)" }} to="/React-Scorize-Task">{item.title}</NavLink>
   
   
               </ListItemButton>) : (<Accordion sx={{ width: "100%", direction: "rtl" }} className="accordion">
@@ -44,7 +44,7 @@ export default function MobileMenu() {
                     sx={{ width: "100%"}}
                   >
   
-                    <NavLink to={`/${item.link}`} style={{ color: "var(--white)" }}>{item.title}</NavLink>
+                    <NavLink to="/React-Scorize-Task" style={{ color: "var(--white)" }}>{item.title}</NavLink>
                   </AccordionSummary>
                 </ListItemButton>
                 {item.menus.length ? (
@@ -55,7 +55,7 @@ export default function MobileMenu() {
                      
     
     
-                          <NavLink to={`/${menu.link}`} style={{padding: "12px 0", color: "var(--bs-gray-700)" }}>{menu.title}</NavLink>
+                          <NavLink to="/React-Scorize-Task" style={{padding: "12px 0", color: "var(--bs-gray-700)" }}>{menu.title}</NavLink>
     
                      
                       </ListItemButton>
