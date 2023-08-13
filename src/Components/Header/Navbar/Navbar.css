@@ -1,0 +1,166 @@
+
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 0 1em;
+  background-color: var(--white);
+   
+}
+
+.navbar1{
+    display: flex;
+   
+    
+}
+
+.main-menu-list{
+    display: flex;
+}
+.main-menu-list li a {
+    transition: 0.2s;
+    padding: 1em 0 !important;
+    color: var(--darker-gray);
+}
+
+.main-menu-listitem{
+    
+    padding:1em;
+    position: relative;
+   
+}
+
+.main-menu-listitem::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    border-radius: 10px 10px 0 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    transition: 0.25s;
+    background-color: var(--purple);
+}
+.main-menu-listitem:hover>a,
+.hover-menu2:hover>a{
+    color: var(--purple) !important;
+  
+}
+.main-menu-listitem > a > svg{
+  transition: 0.25s;
+}
+
+.main-menu-listitem:hover>a > svg{
+  transform: rotate(180deg);
+ 
+}
+
+.main-menu-listitem:hover::after{
+     
+    width: 40%;
+}
+
+.nav-active > a{
+  color: var(--purple) !important;
+}
+
+.nav-active::after{
+width: 40% !important;
+}
+
+
+.main-submenu-list{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid var(--purple);
+    height: auto;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+    top: 150%;
+    right: -3px;
+    background-color: #fff;
+    z-index: 999999 !important;
+    overflow: hidden;
+  
+}
+
+.main-submenu-list{
+    width: max-content !important;
+}
+
+.main-menu-listitem:hover>.main-submenu-list{
+      
+    visibility: visible;
+    opacity: 1;
+   top: 105%;
+   
+  
+  }
+
+  .main-submenu-listitem,
+  .submenu-listitem{
+    padding: 11px 22px;
+    transition: 0.3s;
+  }
+
+  .main-submenu-listitem,
+  .main-submenu-listitem2{
+      width: 100%;
+      
+    }
+    .main-submenu-listitem{
+        max-width: 20%;
+    }
+    
+  .main-submenu-listitem2{
+    max-width: 100%;
+    padding: 1em;
+  }
+  .submenu-listitem,
+  .submenu-listitem > a{
+    width: 100% !important;
+    cursor: pointer;
+  }
+
+  .submenu-listitem:hover{
+    font-weight: 500;
+    margin-right: 6px;
+   
+  }
+  .submenu-listitem:hover > a,
+  .submenu-title:hover{
+    color: var(--purple) !important;
+  }
+
+  .submenu-list{
+    margin: 0.5em 0 0 0 !important;
+  }
+
+  /* .submenu--link-pic{
+    display: flex;
+    align-items: center;
+    
+  } */
+
+
+
+
+  @media screen and (max-width:1125px) {
+    .navbar1{
+      display: none;
+     
+      
+  }
+  
+}

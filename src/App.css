@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.background-body{
+  background-color: var(--background-gray);
+  padding: 1em 0;
+}
