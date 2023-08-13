@@ -11,7 +11,8 @@
     background-color: unset !important;
 }
 .css-1q2h7u5.Mui-selected{
-    color: var(--orange) !important;
+    color: var(--white) !important;
+    background-color: var(--purple) !important;
    
 }
 
