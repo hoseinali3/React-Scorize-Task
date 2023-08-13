@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Scorize-Task/static/css/main.29e9607f.css",
-    "main.js": "/React-Scorize-Task/static/js/main.15bfebe7.js",
+    "main.css": "/React-Scorize-Task/static/css/main.929e3f9c.css",
+    "main.js": "/React-Scorize-Task/static/js/main.066eaf2b.js",
     "static/js/787.7802545e.chunk.js": "/React-Scorize-Task/static/js/787.7802545e.chunk.js",
     "static/media/Lato-Regular.ttf": "/React-Scorize-Task/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/airpalne.webp": "/React-Scorize-Task/static/media/airpalne.2ddffa6aa5ae5eb3300d.webp",
@@ -11,12 +11,12 @@
     "static/media/YekanV3.woff": "/React-Scorize-Task/static/media/YekanV3.18af8c75ab1951a5e56d.woff",
     "static/media/purplearrow.webp": "/React-Scorize-Task/static/media/purplearrow.7bdd67a31ae7d27a830b.webp",
     "index.html": "/React-Scorize-Task/index.html",
-    "main.29e9607f.css.map": "/React-Scorize-Task/static/css/main.29e9607f.css.map",
-    "main.15bfebe7.js.map": "/React-Scorize-Task/static/js/main.15bfebe7.js.map",
+    "main.929e3f9c.css.map": "/React-Scorize-Task/static/css/main.929e3f9c.css.map",
+    "main.066eaf2b.js.map": "/React-Scorize-Task/static/js/main.066eaf2b.js.map",
     "787.7802545e.chunk.js.map": "/React-Scorize-Task/static/js/787.7802545e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29e9607f.css",
-    "static/js/main.15bfebe7.js"
+    "static/css/main.929e3f9c.css",
+    "static/js/main.066eaf2b.js"
   ]
 }
